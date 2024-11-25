@@ -54,6 +54,9 @@ The views folder contains EJS files (templates) for rendering dynamic HTML pages
 The models folder contains Mongoose models for MongoDB collections:
 - user.js: Defines the schema for storing user (unique username and password).
 - student.js: Defines the schema for storing student details (name, unique with 8 digit studentId andcourse).
+### 6. CreateUser.js
+**Summary:**
+The CreateUser.js provide a way for user to create their username and password. It will store in the MongoDB
 
 ## Cloud-Based Server URL
 https://three81-project-b39e.onrender.com/login
