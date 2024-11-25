@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Confirmation</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Include your CSS file if needed -->
+    <style>
+        /* Add styles for the logo */
+        .logo {
+            position: absolute;
+            top: 20px; /* Adjust as needed */
+            right: 20px; /* Adjust as needed */
+            width: 100px; /* Adjust size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+    <img src="/logo.png" alt="Logo" class="logo">
+</head>
+<body>
+    <div class="container">
+        <h1>Are you sure you want to logout?</h1>
+        <form action="/logout/confirm" method="GET">
+            <button type="submit">Logout</button>
+        </form>
+        <form action="/layout" method="GET">
+            <button type="submit">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
