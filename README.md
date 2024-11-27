@@ -117,7 +117,7 @@ The application provides the following RESTful APIs for CRUD operations:
 - Update a Student:
   ```bash
   curl -X PUT http://localhost:8099/api/students/update/674092a14bf554df734704a1 -H "Content-Type: application/json" -d '{"name": "Mary", "studentId": "12345568"}' -b cookies.txt
-  (For WINDOWS)curl -X PUT https://three81-project-b39e.onrender.com/api/students/update/674092a14bf554df734704a1 \-H "Content-Type: application/json" \-d "{\"name\": \"Mary\", \"studentId\": \"12345568\"}" \-b cookies.txt
+  (For WINDOWS)curl -X PUT "https://three81-project-b39e.onrender.com/api/students/update/674092a14bf554df734704a1" -H "Content-Type: application/json" -d "{\"name\": \"Mary\", \"studentId\": \"12345568\"}" -b cookies.txt
   
 
 - Delete student
