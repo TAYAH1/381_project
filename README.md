@@ -4,6 +4,8 @@
 - **Group No.:** 16
 - **Members:**
   - Tung Yu Hin (SID: 12888128)
+  - Soo Lok Yiu (SID: 12894424)
+  - Lee Chin Yiu (SID: 13432147)
   
 
 ## Project File Introduction
@@ -114,10 +116,10 @@ The application provides the following RESTful APIs for CRUD operations:
   (For WINDOWS)curl -X POST https://three81-project-b39e.onrender.com/api/students/create -H "Content-Type: application/json" -d "{\"name\": \"Smith\", \"studentId\": \"12345668\", \"course\": \"Science\"}" -b cookies.txt)
 - Update a Student:
   ```bash
-  curl -X PUT http://localhost:8099/api/students/update/ObjectID -H "Content-Type: application/json" -d '{"name": "Sam", "studentId": "12345568"}' -b cookies.txt
-  (For WINDOWS)curl -X PUT https://three81-project-b39e.onrender.com/api/students/update/ObjectID \-H "Content-Type: application/json" \-d "{\"name\": \"Sam\", \"studentId\": \"12345568\"}" \-b cookies.txt
+  curl -X PUT http://localhost:8099/api/students/update/674092a14bf554df734704a1 -H "Content-Type: application/json" -d '{"name": "Sam", "studentId": "12345568"}' -b cookies.txt
+  (For WINDOWS)curl -X PUT https://three81-project-b39e.onrender.com/api/students/update/674092a14bf554df734704a1 \-H "Content-Type: application/json" \-d "{\"name\": \"Sam\", \"studentId\": \"12345568\"}" \-b cookies.txt
   
 
 - Delete student
   ```bash
-  curl -X DELETE https://three81-project-b39e.onrender.com/api/students/delete/ObjectID -b cookies.txt
+  curl -X DELETE https://three81-project-b39e.onrender.com/api/students/delete/674092a14bf554df734704a1 -b cookies.txt
