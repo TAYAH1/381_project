@@ -102,7 +102,7 @@ The application provides the following RESTful APIs for CRUD operations:
 **cURL Commands for Testing APIs**
 - Login to system:
   ```bash
-   curl -X POST https://three81-project-b39e.onrender.com/login -d "username=admin&password=password" -c cookies.txt
+  curl -X POST "https://three81-project-b39e.onrender.com/login" -d "username=admin&password=password" -c cookies.txt
 - Read student records:
   ```bash
   curl -X GET https://three81-project-b39e.onrender.com/api/students -b cookies.txt
