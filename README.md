@@ -58,7 +58,7 @@ The models folder contains Mongoose models for MongoDB collections:
 - student.js: Defines the schema for storing student details (name, unique with 8 digit studentId andcourse).
 ### 6. CreateUser.js
 **Summary:**
-The CreateUser.js provide a way for user to create their username and password. It will store in the MongoDB
+The CreateUser.js provide a way for user to create their username and password. Use can edit and run this file to create a new user and password. The data will store in the MongoDB
 
 ## Cloud-Based Server URL
 https://three81-project-b39e.onrender.com/login
